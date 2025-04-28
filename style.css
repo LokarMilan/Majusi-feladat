@@ -8,6 +8,7 @@ body{
     margin: auto;
     padding: 1%;
     border-radius: 10pt;
+    float: left;
 }
 .bal{
     width: 1500px;
