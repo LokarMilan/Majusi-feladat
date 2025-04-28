@@ -9,3 +9,13 @@ body{
     padding: 1%;
     border-radius: 10pt;
 }
+.bal{
+    display: flexbox;
+    flex-direction: column;
+    float: left;
+}
+.jobb{
+    display: flexbox;
+    flex-direction: column;
+    float: right;
+}
