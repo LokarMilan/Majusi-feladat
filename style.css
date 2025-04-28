@@ -1,19 +1,26 @@
 body{
-    background-color: #97BE11;
+    background-color:#4CAF50;
 }
 .container{
-    background-color: #DFE9Ac;
-    width: 95%;
-    display: block;
-    margin: auto;
+    background-color: #f0f9f1;
+    width:auto;
     padding: 1%;
     border-radius: 10pt;
-    float: left;
 }
-.bal{
-    width: 1500px;
-    float: left;
+.bal, .jobb {
+    background-color: #eaf0cf;
+    border-radius: 5pt;
+    padding: 5pt;
+    margin: 2pt;
+    flex: 1;
 }
-.jobb{
-    float: right;
+.fejdiv{
+    background-color: #eaf0cf;
+    text-align: center;
+    border-radius: 5pt;
+    padding: 5pt;
+    margin: 2pt;
+}
+.nagydiv{
+    display: flex;
 }
