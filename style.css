@@ -1,3 +1,9 @@
 body{
     background-color: #97BE11;
 }
+.container{
+    background-color: #DFE9Ac;
+    width: 95%;
+    display: block;
+    margin: auto;
+}
