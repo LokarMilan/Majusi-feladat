@@ -1,26 +1,238 @@
-body{
-    background-color:#4CAF50;
+html,
+body {
+    margin: 0%;
+    height: 100%;
+    overflow-x: hidden;
+    background-color: rgb(251, 255, 246);
 }
-.container{
-    background-color: #f0f9f1;
-    width:auto;
-    padding: 1%;
+
+.main {
+    height: 100%;
+}
+
+.nav {
+    background-color: darkseagreen;
+    height: 40pt;
+    border-bottom: solid rgb(110, 148, 110);
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.gomb {
+    height: 100%;
+    width: 25%;
+    background-color: darkseagreen;
+    align-items: center;
+    display: flex;
+    float: left;
+    font-size: larger;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    text-decoration: none;
+}
+
+.cím {
+    width: 100%;
+    height: 150pt;
+    background-color: rgb(243, 253, 244);
+    display: flex;
+    float: left;
+    align-items: center;
+    justify-content: center;
+    font-size: 25pt;
+    border-bottom: solid rgb(231, 241, 233);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(142, 175, 135);
+    padding-top: 40pt;
+}
+
+.gomb:hover {
+    background-color: rgb(133, 179, 133);
     border-radius: 10pt;
 }
-.bal, .jobb {
-    background-color: #eaf0cf;
-    border-radius: 5pt;
-    padding: 5pt;
-    margin: 2pt;
-    flex: 1;
+
+.gomb:active {
+    background-color: rgb(153, 189, 153);
+    border-radius: 10pt;
 }
-.fejdiv{
-    background-color: #eaf0cf;
+
+.section {
+    width: 60%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 2%;
+    font-size: large;
+    background-color: rgb(239, 245, 233);
+    border-radius: 5pt;
+    padding: 1%;
+    font-family: monospace;
+    border: solid rgb(224, 233, 216);
+}
+
+.elem {
+    background-color: rgb(247, 255, 245);
+    float: left;
+    width: 23%;
+    margin: 3%;
+    padding: 1%;
+    border-radius: 5pt;
     text-align: center;
-    border-radius: 5pt;
-    padding: 5pt;
-    margin: 2pt;
+    border: solid rgb(228, 240, 224);
+    color: black;
+    text-decoration: none;
 }
-.nagydiv{
-    display: flex;
+
+.aside {
+    width: 20%;
+    float: right;
+    margin-right: 5%;
+    margin-top: 2%;
+    font-size: large;
+    background-color: rgb(239, 245, 233);
+    border-radius: 5pt;
+    padding: 1%;
+    font-family: monospace;
+    border: solid rgb(224, 233, 216);
+}
+
+.table {
+    width: 30%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 2%;
+    font-size: large;
+    background-color: rgb(239, 245, 233);
+    border-radius: 5pt;
+    padding: 1%;
+    font-family: monospace;
+    text-align: center;
+    border: solid rgb(224, 233, 216);
+}
+
+table,
+td,
+th {
+    border: solid rgb(224, 233, 216);
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    background-color: rgb(233, 243, 223);
+}
+
+td {
+    background-color: rgb(237, 245, 230);
+}
+
+.link {
+    color: black;
+    text-decoration: none;
+    border: solid rgb(224, 233, 216);
+    border-radius: 5pt;
+    padding: 0.5%;
+    background-color: rgb(237, 245, 230);
+}
+
+.linkdiv:hover {
+    transform: scale(1.05);
+}
+
+.linkdiv {
+    width: fit-content;
+    margin: auto;
+}
+
+.elem:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.video {
+    margin-left: 6%;
+    margin-top: 2%;
+    float: left;
+    background-color: rgb(239, 245, 233);
+    border-radius: 5pt;
+    padding: 1%;
+    border: solid rgb(224, 233, 216);
+}
+
+.képek {
+    background-color: rgb(239, 245, 233);
+    float: left;
+    padding: 0.5%;
+    border-radius: 5pt;
+    width: 51%;
+    height: 12%;
+    margin-left: 6%;
+    margin-top: 1%;
+    border: solid rgb(224, 233, 216);
+}
+
+.kép {
+    margin-left: 1%;
+    margin-right: 0.6%;
+    border-radius: 5px;
+    border: solid rgb(208, 219, 198);
+}
+
+.tippek {
+    background-color: rgb(239, 245, 233);
+    float: left;
+    padding: 0.5%;
+    border-radius: 5pt;
+    width: 51%;
+    height: 11%;
+    margin-left: 6%;
+    margin-top: 1%;
+    border: solid rgb(224, 233, 216);
+    text-align: center;
+}
+
+.tipptable {
+    border: 0;
+    background-color: rgb(239, 245, 233);
+    font-family: monospace;
+    font-size: large;
+    border-left: solid rgb(236, 241, 230);
+    border-right: solid rgb(236, 241, 230);
+}
+
+.tippek2 {
+    margin-left: 2%;
+    margin-top: 2%;
+    float: left;
+    background-color: rgb(239, 245, 233);
+    border-radius: 5pt;
+    padding: 1%;
+    border: solid rgb(224, 233, 216);
+    width: 29%;
+    font-family: monospace;
+    font-size: large;
+}
+
+.képek2 {
+    width: 21%;
+    float: left;
+    margin-left: 2%;
+    margin-top: 2%;
+    ;
+    height: 16%;
+    background-color: rgb(239, 245, 233);
+    border: solid rgb(224, 233, 216);
+    padding: 0.5%;
+    border-radius: 5pt;
+    padding-left: 0.5%;
+}
+
+.kép2 {
+    border-radius: 5px;
+    border: solid rgb(208, 219, 198);
+    margin-left: 2%;
+    margin-right: 1%;
 }
