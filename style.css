@@ -72,6 +72,7 @@ body {
 }
 .section1 {
     width: 60%;
+    height: 60%;
     float: left;
     margin-left: 5%;
     margin-top: 2%;
@@ -167,7 +168,7 @@ td {
 }
 
 .video {
-    margin-left: 6%;
+    margin-left: 3%;
     margin-top: 2%;
     float: left;
     background-color: rgb(239, 245, 233);
@@ -181,9 +182,9 @@ td {
     float: left;
     padding: 0.5%;
     border-radius: 5pt;
-    width: 51%;
+    width: 54%;
     height: 12%;
-    margin-left: 6%;
+    margin-left: 3%;
     margin-top: 1%;
     border: solid rgb(224, 233, 216);
 }
@@ -200,9 +201,9 @@ td {
     float: left;
     padding: 0.5%;
     border-radius: 5pt;
-    width: 51%;
-    height: 11%;
-    margin-left: 6%;
+    width: 54%;
+    height: fit-content;
+    margin-left: 3%;
     margin-top: 1%;
     border: solid rgb(224, 233, 216);
     text-align: center;
