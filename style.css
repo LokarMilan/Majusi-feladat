@@ -191,6 +191,9 @@ td {
     margin-left: 3%;
     margin-top: 3%;
     border: solid rgb(224, 233, 216);
+    overflow: auto;
+    white-space: nowrap;
+    overflow-y: hidden;
 }
 
 .kép {
