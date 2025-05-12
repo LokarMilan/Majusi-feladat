@@ -231,6 +231,8 @@ td {
     width: 29%;
     font-family: monospace;
     font-size: large;
+    height: 54%;
+    overflow-y: scroll;
 }
 
 .képek2 {
