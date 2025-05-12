@@ -124,6 +124,8 @@ body {
     font-family: monospace;
     text-align: center;
     border: solid rgb(224, 233, 216);
+    height: 54%;
+    overflow-y: scroll;
 }
 
 table,
