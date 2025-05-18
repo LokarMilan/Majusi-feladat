@@ -75,7 +75,7 @@
 
     .section1 {
         width: 60%;
-        height: 60%;
+        height: fit-content%;
         float: left;
         margin-left: 5%;
         margin-top: 2%;
@@ -542,7 +542,9 @@
         margin-right: 1%;
     }
 }
+
 @media (min-width: 768px) and (max-width: 1024px) {
+
     html,
     body {
         margin: 0%;
